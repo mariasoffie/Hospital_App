@@ -71,7 +71,7 @@ class HALoginSignupScreen extends StatelessWidget {
                       child: const LoginPage()));
             },
             style: ElevatedButton.styleFrom(
-              primary: Color.fromARGB(255, 3, 190, 150),
+              backgroundColor: Color.fromARGB(255, 3, 190, 150),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(30),
               ),
@@ -106,7 +106,7 @@ class HALoginSignupScreen extends StatelessWidget {
                       child: RegisterPage()));
             },
             style: ElevatedButton.styleFrom(
-              primary: Color.fromARGB(255, 255, 255, 255),
+              backgroundColor: Color.fromARGB(255, 255, 255, 255),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(30),
               ),
